@@ -1,8 +1,16 @@
 # Eclipse
-.classpath
 .project
+.classpath
 .settings/
 
 # Arquivos compilados
-/bin/
-/*.class
+bin/
+*.class
+
+# Outras pastas comuns de build
+out/
+target/
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
